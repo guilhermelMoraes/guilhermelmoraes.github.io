@@ -53,10 +53,10 @@ class BreadthFirstSearchAlgorithmDemo {
       
       const adjacentCells = this.#getValidAdjacentCells(cell);
       
-      adjacentCells.forEach(({ cell: adjSqr }) => {
-        adjSqr.dataset.weight = distance + 1;
+      adjacentCells.forEach(({ cell }) => {
+        cell.dataset.weight = distance + 1;
         
-        queue.push({ cell: adjSqr, distance: distance + 1 });
+        queue.push({ cell, distance: distance + 1 });
       });
     }
   }

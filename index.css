@@ -35,6 +35,10 @@ button {
   padding: 8px 32px;
 }
 
+p {
+  margin-top: 0;
+}
+
 h1, h2 {
   margin: 0;
   margin-bottom: 16px;
@@ -61,6 +65,10 @@ input {
 
 #description {
   max-width: 512px;
+}
+
+.m-bottom {
+  margin-bottom: 16px;
 }
 
 #board {

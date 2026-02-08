@@ -232,7 +232,7 @@ const boards = {
       { enabled: true, index: 126 },
       { enabled: false, index: 127 },
       { enabled: false, index: 128 },
-      { enabled: false, index: 129 },
+      { enabled: true, index: 129 },
       { enabled: true, index: 130 },
       { enabled: false, index: 131 },
     ],
